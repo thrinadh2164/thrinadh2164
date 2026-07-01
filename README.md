@@ -6,6 +6,13 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&random=false&width=600&height=60&lines=%5B%E2%96%B6%5D+System+Boot+Sequence+Initiated...;%5B%E2%96%B6%5D+Loading+AI+Core+Modules...;%5B%E2%96%B6%5D+Establishing+Neural+Link...;%5B%E2%96%B6%5D+Access+Granted.+Welcome." alt="Typing SVG" /></a>
 </div>
 
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3enk2cXJkcTJkYmZ5dWdvNGs1MHFuZTV6MHdsdmcxeGRoOG45c2h2YSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/wpIqberrjjSKDmaCgA/giphy.gif" width="180" />
+  <!-- Hidden backup GIF:
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanlldzA3OG8yNjJsM2VqZGIzZXhhaGluNWlid2MxdTg0aXZvcDN6cSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YpSKlrlvI79yU/giphy.gif" width="180" />
+  -->
+</div>
+
 
 
 <br/>
