@@ -15,8 +15,7 @@
 <div align="center">
   <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg" height="40" /></a>&nbsp;
   <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg" height="40" /></a>&nbsp;
-  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg" height="40" /></a>&nbsp;
-  <a href="https://github.com/thrinadh2164"><img src="./btn_github.svg" height="40" /></a>
+  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg" height="40" /></a>
 </div>
 
 <br/>
