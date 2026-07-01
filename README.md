@@ -115,7 +115,38 @@ const thrinadh = {
   <img src="./animated_divider.svg" width="100%">
 </div>
 
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+<tr>
+  <td width="33%" valign="top">
+    <h2>🤝 Collaboration</h2>
+    <p>I'm open to collaborating on:</p>
+    <ul>
+      <li>ML infrastructure projects</li>
+      <li>Reinforcement learning systems</li>
+      <li>Robotics & autonomous systems</li>
+      <li>Large-scale AI platforms</li>
+    </ul>
+  </td>
+  <td width="34%" valign="top" align="center">
+    <img src="./panel_collab.svg" width="100%" alt="Collaboration Panel">
+  </td>
+  <td width="33%" valign="top">
+    <h2>📫 Contact</h2>
+    <br/>
+    <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/PERSONAL_WEBSITE-THRINADH.DEV-0077B5?style=for-the-badge&logo=vercel&logoColor=white" /></a><br/><br/>
+    <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/EMAIL-THRINADH2164.WORK@GMAIL.COM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a><br/><br/>
+    <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/LINKEDIN-THRINADH2164-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  </td>
+</tr>
+</table>
 
+<br/>
+
+<div align="center">
+  <p>⚡ Building scalable AI systems and machine learning infrastructure</p>
+  <p>Star ⭐ the repos if they helped you!</p>
+  <p><a href="https://github.com/thrinadh2164">Code of Conduct</a> • <a href="https://github.com/thrinadh2164">Collaboration</a> • <a href="https://github.com/thrinadh2164">Security</a></p>
+</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" width="100%" />
