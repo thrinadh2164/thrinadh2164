@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 45" width="100%" height="45">
+  <defs>
+    <linearGradient id="fireLineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FF2D2D" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="#FF2D2D"/>
+      <stop offset="40%"  stop-color="#FFD700"/>
+      <stop offset="55%"  stop-color="#36BCF7"/>
+      <stop offset="80%"  stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base line -->
+  <line x1="0" y1="22" x2="900" y2="22" stroke="url(#fireLineGrad)" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- Circuit tick marks -->
+  <line x1="180" y1="18" x2="180" y2="26" stroke="#FF6B35" stroke-width="1.2" opacity="0.6"/>
+  <line x1="360" y1="18" x2="360" y2="26" stroke="#FFD700" stroke-width="1.2" opacity="0.6"/>
+  <line x1="450" y1="16" x2="450" y2="28" stroke="#36BCF7" stroke-width="1.5" opacity="0.9" filter="url(#glow)"/>
+  <line x1="540" y1="18" x2="540" y2="26" stroke="#bc8cff" stroke-width="1.2" opacity="0.6"/>
+  <line x1="720" y1="18" x2="720" y2="26" stroke="#FF6B35" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- Center icon -->
+  <text x="450" y="17" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" fill="#36BCF7" letter-spacing="2" filter="url(#glow)">◈</text>
+
+  <!-- Moving spark 1: fire -->
+  <circle r="3.5" fill="#FF6B35" filter="url(#glow)">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath xlink:href="#line1"/>
+    </animateMotion>
+    <animate attributeName="r" values="3.5;4.5;3;3.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <path id="line1" d="M 0,22 L 900,22" fill="none"/>
+
+  <!-- Moving spark 2: cyan, offset -->
+  <circle r="2.5" fill="#36BCF7" filter="url(#glow)">
+    <animateMotion dur="3s" begin="1s" repeatCount="indefinite">
+      <mpath xlink:href="#line1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Moving spark 3: purple, offset -->
+  <circle r="2" fill="#bc8cff" filter="url(#glow)">
+    <animateMotion dur="3s" begin="2s" repeatCount="indefinite">
+      <mpath xlink:href="#line1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Small fire sparks popping above line -->
+  <circle cx="225" cy="22" r="1.5" fill="#FFD700">
+    <animate attributeName="cy" values="22;14;22" dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="675" cy="22" r="1.5" fill="#FF2D2D">
+    <animate attributeName="cy" values="22;14;22" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
