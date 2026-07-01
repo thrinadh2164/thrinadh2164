@@ -89,9 +89,9 @@ const thrinadh = {
 
 <table width="100%" border="0" cellspacing="10" cellpadding="0">
 <tr>
-  <td width="33%" valign="top" align="center"><a href="https://github.com/thrinadh2164?tab=repositories"><img src="./panel_projects.svg" width="100%" alt="Featured Projects Panel"></a></td>
-  <td width="34%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Awards/"><img src="./panel_awards.svg" width="100%" alt="Awards & Recognitions Panel"></a></td>
-  <td width="33%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Certifications/"><img src="./panel_certs.svg" width="100%" alt="Certifications Panel"></a></td>
+  <td width="33.3%" valign="top" align="center"><a href="https://github.com/thrinadh2164?tab=repositories"><img src="./panel_projects.svg" width="100%" alt="Featured Projects Panel"></a></td>
+  <td width="33.3%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Awards/"><img src="./panel_awards.svg" width="100%" alt="Awards & Recognitions Panel"></a></td>
+  <td width="33.3%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Certifications/"><img src="./panel_certs.svg" width="100%" alt="Certifications Panel"></a></td>
 </tr>
 </table>
 
