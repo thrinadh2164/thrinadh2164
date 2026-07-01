@@ -18,7 +18,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" /></a>&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" /></a>&nbsp;
   <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/-Email-000?logo=gmail&logoColor=EA4335&style=for-the-badge" /></a>&nbsp;
   <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/-Portfolio-000?logo=vercel&logoColor=fff&style=for-the-badge" /></a>&nbsp;
   <a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=fff&style=for-the-badge" /></a>
@@ -115,37 +115,16 @@ const thrinadh = {
   <img src="./animated_divider.svg" width="100%">
 </div>
 
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-<tr>
-  <td width="33%" valign="top">
-    <h2>🤝 Collaboration</h2>
-    <p>I'm open to collaborating on:</p>
-    <ul>
-      <li>ML infrastructure projects</li>
-      <li>Reinforcement learning systems</li>
-      <li>Robotics & autonomous systems</li>
-      <li>Large-scale AI platforms</li>
-    </ul>
-  </td>
-  <td width="34%" valign="top" align="center">
-    <a href="./docs/COLLAB.md"><img src="./panel_collab.svg" width="100%" alt="Collaboration Panel"></a>
-  </td>
-  <td width="33%" valign="top">
-    <h2>📫 Contact</h2>
-    <br/>
-    <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/PERSONAL_WEBSITE-THRINADH.DEV-0077B5?style=for-the-badge&logo=vercel&logoColor=white" /></a><br/><br/>
-    <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/EMAIL-THRINADH2164.WORK@GMAIL.COM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a><br/><br/>
-    <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/LINKEDIN-THRINADH2164-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  </td>
-</tr>
-</table>
+<div align="center">
+  <a href="./docs/COLLAB.md"><img src="./collab_terminal.svg" width="100%" alt="Collaboration Terminal"></a>
+</div>
 
 <br/>
 
 <div align="center">
-  <p>⚡ Building scalable AI systems and machine learning infrastructure</p>
-  <p>Star ⭐ the repos if they helped you!</p>
-  <p><a href="https://github.com/thrinadh2164">Code of Conduct</a> • <a href="./docs/COLLAB.md">Collaboration</a> • <a href="https://github.com/thrinadh2164">Security</a></p>
+  <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/PORTFOLIO-THRINADH.DEV-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>&nbsp;&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/EMAIL-THRINADH2164.WORK@GMAIL.COM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/LINKEDIN-THRINADH2164-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
 
 <div align="center">
