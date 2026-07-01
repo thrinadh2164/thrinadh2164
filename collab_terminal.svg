@@ -24,9 +24,12 @@
     </style>
   </defs>
 
-  <!-- Animated fire border -->
-  <rect width="996" height="296" x="2" y="2" rx="15" fill="transparent" stroke="url(#fireBorder)" stroke-width="2.5" stroke-dasharray="20 10">
-    <animate attributeName="stroke-dashoffset" from="90" to="0" dur="3s" repeatCount="indefinite"/>
+  <!-- Base dim border -->
+  <rect width="996" height="296" x="2" y="2" rx="15" fill="transparent" stroke="#30363d" stroke-width="2"/>
+  
+  <!-- Fire Star / Comet Trail (Perimeter ~2559) -->
+  <rect width="996" height="296" x="2" y="2" rx="15" fill="transparent" stroke="url(#fireBorder)" stroke-width="4" stroke-linecap="round" stroke-dasharray="150 2409" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="2559" to="0" dur="5s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Fire corner accents -->

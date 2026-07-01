@@ -20,10 +20,13 @@
     </style>
   </defs>
 
-  <!-- Transparent background with fire border -->
-  <rect width="496" height="646" x="2" y="2" rx="20" fill="transparent" stroke="#FF6B35" stroke-width="2" stroke-dasharray="15 10">
-    <animate attributeName="stroke" values="#FF6B35;#FFD700;#FF2D2D;#FF6B35" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-dashoffset" from="50" to="0" dur="3s" repeatCount="indefinite"/>
+  <!-- Base dim border -->
+  <rect width="496" height="646" x="2" y="2" rx="20" fill="transparent" stroke="#30363d" stroke-width="2"/>
+  
+  <!-- Comet / Shooting Star Trail (Perimeter ~2250) -->
+  <rect width="496" height="646" x="2" y="2" rx="20" fill="transparent" stroke="#FF6B35" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="150 2100" filter="url(#glow)">
+    <animate attributeName="stroke" values="#FF6B35;#FFD700;#FF2D2D;#FF6B35" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="2250" to="0" dur="4s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Fire Orbital Animation -->
