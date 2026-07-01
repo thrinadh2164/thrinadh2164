@@ -13,3 +13,4 @@ I'm always open to feedback, code reviews, and collaborating on interesting tech
 Thank you for visiting my page 💖
 
 *P.S.: I love exploring new open-source projects. If you're working on something cool in AI or Web Dev, let me know!*
+#https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z2RubXZ0MW10YnJoaWM1N3g0aml2cHNocGE1eDhnNHZ5MzNycDJ5aCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/wpIqberrjjSKDmaCgA/giphy.gif#
