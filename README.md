@@ -18,7 +18,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" /></a>&nbsp;
   <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/-Email-000?logo=gmail&logoColor=EA4335&style=for-the-badge" /></a>&nbsp;
   <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/-Portfolio-000?logo=vercel&logoColor=fff&style=for-the-badge" /></a>&nbsp;
   <a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=fff&style=for-the-badge" /></a>
