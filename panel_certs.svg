@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </radialGradient>
+    
+    <!-- Glowing Green/Cyan Node for Certs -->
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#56d364"/>
+      <stop offset="70%" stop-color="#2ea043"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </radialGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+    <style>
+      .title { font: 800 38px 'Segoe UI', Arial, sans-serif; fill: #f0f6fc; letter-spacing: 3px; }
+      .subtitle { font: 600 16px 'Fira Code', monospace; fill: #8b949e; letter-spacing: 1px; }
+      .cta { font: 700 15px 'Segoe UI', Arial; fill: #56d364; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <rect width="500" height="650" rx="20" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Orbital Animation -->
+  <g transform="translate(250,260)">
+    <!-- Core Glow -->
+    <circle r="100" fill="url(#coreGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="90;105;90" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Shield/Data Node -->
+    <path d="M -50,-50 L 50,-50 L 50,20 C 50,60 0,90 0,90 C 0,90 -50,60 -50,20 Z" fill="#ffffff" opacity="0.95">
+        <animate attributeName="opacity" values="0.8; 1; 0.8" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Radar Sweep -->
+    <g stroke="#56d364" stroke-width="3" fill="none" stroke-linecap="round">
+        <path d="M 0,-130 A 130 130 0 0 1 130,0" stroke-dasharray="100 200">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0,-130 A 130 130 0 0 1 130,0" stroke-dasharray="100 200">
+            <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="3s" repeatCount="indefinite"/>
+        </path>
+    </g>
+
+    <!-- Pulsing Data Dots -->
+    <circle cx="100" cy="100" r="5" fill="#56d364" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-120" cy="30" r="4" fill="#2ea043" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title Text -->
+  <text x="250" y="460" text-anchor="middle" class="title">CERTIFICATIONS</text>
+  <text x="250" y="500" text-anchor="middle" class="subtitle">ml • engineering • cloud</text>
+  <text x="250" y="560" text-anchor="middle" class="cta">VIEW CREDENTIALS →</text>
+</svg>

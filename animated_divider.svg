@@ -1,0 +1,48 @@
+<svg width="800" height="40" viewBox="0 0 800 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Ambient glow filter -->
+    <defs>
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <linearGradient id="pulseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0d1117" />
+            <stop offset="50%" stop-color="#58a6ff">
+                <animate attributeName="stop-color" values="#58a6ff; #36BCF7; #58a6ff" dur="2s" repeatCount="indefinite"/>
+            </stop>
+            <stop offset="100%" stop-color="#0d1117" />
+        </linearGradient>
+    </defs>
+
+    <!-- Base Track -->
+    <path d="M 0,20 L 800,20" stroke="#161b22" stroke-width="2" />
+
+    <!-- Animated Gradient Pulse -->
+    <path d="M 0,20 L 800,20" stroke="url(#pulseGradient)" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.5; 1; 0.5" dur="2s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Center Node (Rotating Hacker Diamond) -->
+    <g transform="translate(400, 20)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite" />
+        <rect x="-6" y="-6" width="12" height="12" fill="#0d1117" stroke="#58a6ff" stroke-width="2" filter="url(#glow)" />
+        <circle cx="0" cy="0" r="2" fill="#36BCF7">
+             <animate attributeName="r" values="2; 4; 2" dur="1.5s" repeatCount="indefinite" />
+        </circle>
+    </g>
+
+    <!-- Left to Right Particle -->
+    <circle cx="0" cy="20" r="1.5" fill="#58a6ff" filter="url(#glow)">
+        <animate attributeName="cx" values="0; 800" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0; 1; 0" dur="3s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Right to Left Particle -->
+    <circle cx="800" cy="20" r="1.5" fill="#36BCF7" filter="url(#glow)">
+        <animate attributeName="cx" values="800; 0" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0; 1; 0" dur="4s" repeatCount="indefinite" />
+    </circle>
+</svg>

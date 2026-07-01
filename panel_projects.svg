@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </radialGradient>
+    
+    <!-- Glowing Blue Node for Projects -->
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#79c0ff"/>
+      <stop offset="70%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </radialGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+    <style>
+      .title { font: 800 38px 'Segoe UI', Arial, sans-serif; fill: #f0f6fc; letter-spacing: 3px; }
+      .subtitle { font: 600 16px 'Fira Code', monospace; fill: #8b949e; letter-spacing: 1px; }
+      .cta { font: 700 15px 'Segoe UI', Arial; fill: #58a6ff; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <rect width="500" height="650" rx="20" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Orbital Animation -->
+  <g transform="translate(250,260)">
+    <!-- Core Glow -->
+    <circle r="100" fill="url(#coreGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="90;110;90" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="40" fill="#ffffff" opacity="0.9"/>
+    
+    <!-- Rotating Rings -->
+    <g stroke="#58a6ff" stroke-width="2" fill="none">
+      <ellipse rx="130" ry="40">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="130" ry="40">
+        <animateTransform attributeName="transform" type="rotate" from="60" to="420" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="130" ry="40">
+        <animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="14s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    
+    <!-- Orbiting Data Nodes -->
+    <circle cx="130" cy="0" r="4" fill="#79c0ff" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-90" cy="90" r="6" fill="#ffffff" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title Text -->
+  <text x="250" y="460" text-anchor="middle" class="title">PROJECTS</text>
+  <text x="250" y="500" text-anchor="middle" class="subtitle">ai • full-stack • agents</text>
+  <text x="250" y="560" text-anchor="middle" class="cta">VIEW REPOS →</text>
+</svg>

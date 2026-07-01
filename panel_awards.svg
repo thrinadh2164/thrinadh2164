@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </radialGradient>
+    
+    <!-- Glowing Purple/Pink Node for Awards -->
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#d2a8ff"/>
+      <stop offset="70%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </radialGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+    <style>
+      .title { font: 800 38px 'Segoe UI', Arial, sans-serif; fill: #f0f6fc; letter-spacing: 3px; }
+      .subtitle { font: 600 16px 'Fira Code', monospace; fill: #8b949e; letter-spacing: 1px; }
+      .cta { font: 700 15px 'Segoe UI', Arial; fill: #d2a8ff; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <rect width="500" height="650" rx="20" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Orbital Animation -->
+  <g transform="translate(250,260)">
+    <!-- Core Glow -->
+    <circle r="100" fill="url(#coreGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="90;120;90" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Floating Hexagons (Awards theme) -->
+    <g stroke="#bc8cff" stroke-width="2" fill="none">
+      <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" stroke="#d2a8ff" stroke-dasharray="20 10">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    
+    <!-- Inner Diamond -->
+    <rect x="-25" y="-25" width="50" height="50" fill="#ffffff" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Pulsing Orbs -->
+    <circle cx="0" cy="-110" r="5" fill="#d2a8ff" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title Text -->
+  <text x="250" y="460" text-anchor="middle" class="title">AWARDS</text>
+  <text x="250" y="500" text-anchor="middle" class="subtitle">honors • hackathons • impact</text>
+  <text x="250" y="560" text-anchor="middle" class="cta">VIEW GALLERY →</text>
+</svg>
