@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 45" width="170" height="45">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 46" width="175" height="46">
   <defs>
-    <style>
-      .btn-bg { fill: transparent; stroke: #8b949e; stroke-width: 1.5; }
-      .btn-text { font: 600 14px 'Fira Code', monospace; fill: #f0f6fc; }
-    </style>
+    <filter id="fg"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect class="btn-bg" width="167" height="42" x="1.5" y="1.5" rx="6" stroke-dasharray="10 5">
-     <animate attributeName="stroke-dashoffset" from="30" to="0" dur="3s" repeatCount="indefinite" />
+  <rect width="172" height="43" x="1.5" y="1.5" rx="7" fill="transparent" stroke="#FFD700" stroke-width="2" filter="url(#fg)">
+    <animate attributeName="stroke" values="#FFD700;#FF6B35;#FF2D2D;#FFD700" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;2.5;2" dur="3s" repeatCount="indefinite"/>
   </rect>
-  <polygon points="20,15 28,29 12,29" fill="#ffffff"/>
-  <text x="38" y="27" class="btn-text">thrinadh.dev</text>
+  <!-- Triangle / portfolio icon -->
+  <polygon points="21,30 11,30 16,16" fill="#FFD700"/>
+  <!-- Label -->
+  <text x="32" y="28" font-family="'Fira Code',monospace" font-size="13" font-weight="600" fill="#FFD700">thrinadh.dev</text>
 </svg>
