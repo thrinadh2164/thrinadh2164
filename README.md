@@ -13,9 +13,9 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg" height="40" /></a>&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg" height="40" /></a>&nbsp;
-  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg" height="40" /></a>
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg?v=2" height="40" /></a>&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg?v=2" height="40" /></a>&nbsp;
+  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg?v=2" height="40" /></a>
 </div>
 
 <br/>
@@ -142,9 +142,9 @@ const thrinadh = {
 <br/>
 
 <div align="center">
-  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg" height="40" /></a>&nbsp;&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg" height="40" /></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg" height="40" /></a>
+  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg?v=2" height="40" /></a>&nbsp;&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg?v=2" height="40" /></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg?v=2" height="40" /></a>
 </div>
 
 <div align="center">
