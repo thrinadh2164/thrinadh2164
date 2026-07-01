@@ -7,9 +7,9 @@
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjQ4eDFiYzR6YTBvbHdhOXcwcnpjMjF6djFveDh1djk1NW03MmVnYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YpSKlrlvI79yU/giphy.gif" width="180" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFkMDUzZTZjZGM1N2Q5MjVkYTBhODdjYzdkMzI4NThmYWJlNmViZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/3o7TKrEzvPNBgqh91S/giphy.gif" width="180" />
   <!-- Backup GIF (swap with the one above whenever you want!):
-  https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFkMDUzZTZjZGM1N2Q5MjVkYTBhODdjYzdkMzI4NThmYWJlNmViZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/3o7TKrEzvPNBgqh91S/giphy.gif
+https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjQ4eDFiYzR6YTBvbHdhOXcwcnpjMjF6djFveDh1djk1NW03MmVnYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YpSKlrlvI79yU/giphy.gif
   -->
 </div>
 
