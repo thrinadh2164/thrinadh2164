@@ -128,7 +128,7 @@ const thrinadh = {
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=thrinadh2164&theme=radical" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thrinadh2164&bg_color=00000000&color=FF9F45&line=FF6B35&point=FFD700&area=true&hide_border=true" width="90%" />
 </div>
 
 <div align="center">
