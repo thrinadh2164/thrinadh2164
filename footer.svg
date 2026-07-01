@@ -1,0 +1,43 @@
+<svg width="1000" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Synthwave / Vintage Console Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090514"/>
+      <stop offset="100%" stop-color="#1f0a33"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap');
+      .subtitle { font: 700 16px 'Fira Code', monospace; fill: #d2a8ff; letter-spacing: 4px; }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(2px); }
+      }
+      .floating { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="120" fill="url(#bg)"/>
+  
+  <!-- Retro Grid Floor -->
+  <g stroke="#d2a8ff" stroke-width="1.5" opacity="0.3">
+    <path d="M 0,60 L 1000,60 M 0,80 L 1000,80 M 0,100 L 1000,100 M 0,120 L 1000,120"/>
+    <path d="M 500,50 L 500,120 M 450,50 L 200,120 M 550,50 L 800,120 M 400,50 L -100,120 M 600,50 L 1100,120"/>
+  </g>
+  
+  <!-- Glowing Neon Borders -->
+  <rect x="20" y="20" width="960" height="80" rx="10" fill="none" stroke="#58a6ff" stroke-width="4" stroke-dasharray="15 15" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="2s" repeatCount="indefinite" />
+  </rect>
+  <rect x="30" y="30" width="940" height="60" rx="6" fill="none" stroke="#56d364" stroke-width="2" filter="url(#glow)"/>
+  
+  <!-- Subtitle -->
+  <text x="500" y="65" text-anchor="middle" class="subtitle floating" filter="url(#glow)">> CONNECTION_TERMINATED</text>
+</svg>

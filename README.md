@@ -115,5 +115,5 @@ const thrinadh = {
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=120&section=footer" width="100%" />
+  <img src="./footer.svg" width="100%" alt="End of System Log" />
 </div>
