@@ -1,41 +1,26 @@
-👋 Hello! I'm Thrinadh
-
-I'm a **Full-Stack, Android, & Gen AI Developer** 🤖 and a BE CSE (AI & ML) Graduate 🎓.
-I use this GitHub to showcase my projects, experiment with AI, and build cool things!
-I'm always open to feedback, code reviews, and collaborating on interesting tech 💪
-
-⭐ Feel free to follow me - I'd really appreciate your support!
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=220&section=header&text=Thrinadh%20Chowdary&fontSize=50&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20|%20AI/ML%20Engineer%20|%20Android%20Dev&descSize=18&descColor=8b949e&descAlignY=55" width="100%" />
+</div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z2RubXZ0MW10YnJoaWM1N3g0aml2cHNocGE1eDhnNHZ5MzNycDJ5aCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/wpIqberrjjSKDmaCgA/giphy.gif" width="250" />
-</div>
-
-Thank you for visiting my page 💖
-### 🛠️ My Tech Stack
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-</div>
-
-### 📊 My GitHub Stats
-<div align="left">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=thrinadh2164&show_icons=true&theme=radical&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thrinadh2164&layout=compact&theme=radical&hide_border=true" />
-</div>
-
-### 📫 Let's Connect!
-<div align="left">
-  <a href="https://linkedin.com/in/thrinadh2164" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:thrinadh2164.work@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://thrinadh.dev" target="_blank"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=%3E+console.log(%22Hello+World!%22);+%F0%9F%91%8B;Building+AI-Powered+Applications+%F0%9F%A4%96;Full-Stack+%7C+Android+%7C+Gen+AI+%F0%9F%9A%80;BE+CSE+(AI+%26+ML)+Graduate+%F0%9F%8E%93;Always+Learning%2C+Always+Building+%E2%9A%A1" alt="Typing SVG" /></a>
 </div>
 
 <br/>
 
-*P.S.: I love exploring new open-source projects. If you're working on something cool in AI or Web Dev, let me know!*
-<!-- 
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjQ4eDFiYzR6YTBvbHdhOXcwcnpjMjF6djFveDh1djk1NW03MmVnYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YpSKlrlvI79yU/giphy.gif" width="200" />
+</div>
 
-https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjQ4eDFiYzR6YTBvbHdhOXcwcnpjMjF6djFveDh1djk1NW03MmVnYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YpSKlrlvI79yU/giphy.gif-->
+<br/>
+
+## 🧑‍💻 About Me
+
+```javascript
+const thrinadh = {
+    pronouns: "he" | "him",
+    role: "Full-Stack & AI/ML Developer",
+    education: "BE CSE (AI & ML) Graduate 🎓",
+    currentFocus: ["Gen AI", "Prompt Engineering", "Android Dev"],
+    funFact: "I debug with console.log and I'm not ashamed 😄"
+};
