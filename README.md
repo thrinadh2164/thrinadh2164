@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Thrinadh Core System Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=180&text=THRINADH%20CORE%20SYSTEM&fontSize=50&fontColor=58a6ff&animation=twinkling&fontAlignY=35&desc=PRIMARY%20ACCESS%20PORTAL%20-%20AI%20AND%20ML%20-%20FULL-STACK&descSize=15&descColor=8b949e&descAlignY=55" width="100%" />
 </div>
 
 <div align="center">
@@ -115,5 +115,5 @@ const thrinadh = {
 <br/>
 
 <div align="center">
-  <img src="./footer.svg" width="100%" alt="End of System Log" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" width="100%" />
 </div>
