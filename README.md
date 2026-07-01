@@ -128,7 +128,7 @@ const thrinadh = {
     </ul>
   </td>
   <td width="34%" valign="top" align="center">
-    <img src="./panel_collab.svg" width="100%" alt="Collaboration Panel">
+    <a href="./docs/COLLAB.md"><img src="./panel_collab.svg" width="100%" alt="Collaboration Panel"></a>
   </td>
   <td width="33%" valign="top">
     <h2>📫 Contact</h2>
@@ -145,7 +145,7 @@ const thrinadh = {
 <div align="center">
   <p>⚡ Building scalable AI systems and machine learning infrastructure</p>
   <p>Star ⭐ the repos if they helped you!</p>
-  <p><a href="https://github.com/thrinadh2164">Code of Conduct</a> • <a href="https://github.com/thrinadh2164">Collaboration</a> • <a href="https://github.com/thrinadh2164">Security</a></p>
+  <p><a href="https://github.com/thrinadh2164">Code of Conduct</a> • <a href="./docs/COLLAB.md">Collaboration</a> • <a href="https://github.com/thrinadh2164">Security</a></p>
 </div>
 
 <div align="center">
