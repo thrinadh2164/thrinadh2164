@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,161b22,0d1117&height=250&text=THRINADH%20CORE%20SYSTEM&fontSize=50&fontColor=58a6ff&animation=twinkling&fontAlignY=35&desc=PRIMARY%20ACCESS%20PORTAL%20-%20AI%20AND%20ML%20-%20FULL-STACK&descSize=15&descColor=8b949e&descAlignY=55" width="100%" />
+  <img src="./header.svg" width="100%" alt="Thrinadh Core System Header" />
 </div>
 
 <div align="center">
@@ -14,10 +14,10 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-000?&logo=linkedin&logoColor=0A66C2&style=for-the-badge" /></a>&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/-Email-000?&logo=gmail&logoColor=EA4335&style=for-the-badge" /></a>&nbsp;
-  <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/-Portfolio-000?&logo=vercel&logoColor=fff&style=for-the-badge" /></a>&nbsp;
-  <a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/-GitHub-000?&logo=github&logoColor=fff&style=for-the-badge" /></a>
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-000?logo=linkedin&logoColor=0A66C2&style=for-the-badge" /></a>&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/-Email-000?logo=gmail&logoColor=EA4335&style=for-the-badge" /></a>&nbsp;
+  <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/-Portfolio-000?logo=vercel&logoColor=fff&style=for-the-badge" /></a>&nbsp;
+  <a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=fff&style=for-the-badge" /></a>
 </div>
 
 <br/>
