@@ -149,5 +149,5 @@ const thrinadh = {
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D2D,30:FF6B35,60:FFD700,100:FF2D2D&height=120&section=footer" width="100%" />
+  <img src="./footer.svg" width="100%" />
 </div>
