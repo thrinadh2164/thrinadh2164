@@ -1,4 +1,4 @@
-[# 👋 Hello! I'm Thrinadh
+👋 Hello! I'm Thrinadh
 
 I'm a **Full-Stack, Android, & Gen AI Developer** 🤖 and a BE CSE (AI & ML) Graduate 🎓.
 I use this GitHub to showcase my projects, experiment with AI, and build cool things!
