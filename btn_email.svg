@@ -2,10 +2,7 @@
   <defs>
     <filter id="fg"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="297" height="43" x="1.5" y="1.5" rx="7" fill="transparent" stroke="#EA4335" stroke-width="2" filter="url(#fg)">
-    <animate attributeName="stroke" values="#EA4335;#FF6B35;#EA4335" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-width" values="2;2.5;2" dur="3s" repeatCount="indefinite"/>
-  </rect>
+
   <!-- Envelope icon -->
   <path d="M 11,14 L 31,14 L 31,32 L 11,32 Z" fill="none" stroke="#EA4335" stroke-width="1.5"/>
   <path d="M 11,14 L 21,23 L 31,14" fill="none" stroke="#EA4335" stroke-width="1.5"/>

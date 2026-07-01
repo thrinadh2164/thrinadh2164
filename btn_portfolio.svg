@@ -2,10 +2,7 @@
   <defs>
     <filter id="fg"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="172" height="43" x="1.5" y="1.5" rx="7" fill="transparent" stroke="#36BCF7" stroke-width="2" filter="url(#fg)">
-    <animate attributeName="stroke" values="#36BCF7;#bc8cff;#36BCF7" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-width" values="2;2.5;2" dur="3s" repeatCount="indefinite"/>
-  </rect>
+
   <!-- Triangle / portfolio icon -->
   <polygon points="21,30 11,30 16,16" fill="#36BCF7"/>
   <!-- Label -->
