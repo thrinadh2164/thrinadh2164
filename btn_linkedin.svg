@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 45" width="170" height="45">
   <defs>
     <style>
-      .btn-bg { fill: #0d1117; stroke: #0A66C2; stroke-width: 1.5; }
+      .btn-bg { fill: transparent; stroke: #0A66C2; stroke-width: 1.5; }
       .btn-text { font: 600 14px 'Fira Code', monospace; fill: #f0f6fc; }
     </style>
   </defs>

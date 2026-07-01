@@ -33,25 +33,27 @@
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="996" height="296" x="2" y="2" rx="15" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="2" stroke-dasharray="10 5">
+  <!-- Background / Window -->
+  <rect width="996" height="296" x="2" y="2" rx="15" fill="transparent" stroke="url(#borderGrad)" stroke-width="2" stroke-dasharray="20 15">
     <animate attributeName="stroke-dashoffset" from="100" to="0" dur="5s" repeatCount="indefinite" />
   </rect>
 
   <!-- Terminal Content -->
-  <g class="glitch" transform="translate(50, 60)">
-    <text x="0" y="0" class="term-header">> INITIATE COLLABORATION_PROTOCOL</text>
-    <text x="0" y="40" class="term-sub">Scanning for compatible vectors and shared systems...</text>
-    
-    <g transform="translate(20, 90)">
-      <text x="0" y="0" class="term-item" fill="#36BCF7">[+] Generative AI &amp; RAG Pipelines</text>
-      <text x="0" y="40" class="term-item" fill="#bc8cff">[+] Multi-Agent Frameworks</text>
+  <g transform="translate(50, 60)">
+    <g class="glitch">
+      <text x="0" y="0" class="term-header">> INITIATE COLLABORATION_PROTOCOL</text>
+      <text x="0" y="40" class="term-sub">Scanning for compatible vectors and shared systems...</text>
       
-      <text x="400" y="0" class="term-item" fill="#36BCF7">[+] Full-Stack Architecture</text>
-      <text x="400" y="40" class="term-item" fill="#58a6ff">[+] Scalable ML Infrastructure</text>
+      <g transform="translate(20, 90)">
+        <text x="0" y="0" class="term-item" fill="#36BCF7">[+] Generative AI &amp; RAG Pipelines</text>
+        <text x="0" y="40" class="term-item" fill="#bc8cff">[+] Multi-Agent Frameworks</text>
+        
+        <text x="400" y="0" class="term-item" fill="#36BCF7">[+] Full-Stack Architecture</text>
+        <text x="400" y="40" class="term-item" fill="#58a6ff">[+] Scalable ML Infrastructure</text>
+      </g>
+      
+      <text x="0" y="190" class="term-sub">> STATUS: <tspan fill="#3fb950">AWAITING_CONNECTION</tspan><tspan fill="#3fb950" class="glitch">_</tspan></text>
     </g>
-    
-    <text x="0" y="190" class="term-sub">> STATUS: <tspan fill="#3fb950">AWAITING_CONNECTION</tspan><tspan fill="#3fb950" class="glitch">_</tspan></text>
   </g>
 
   <!-- Animated Node Graphic on the right -->

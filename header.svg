@@ -34,7 +34,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1000" height="220" fill="url(#bg)"/>
+  <rect width="1000" height="220" fill="transparent"/>
   
   <!-- Cyberpunk Frame -->
   <path d="M 40,30 L 140,30 L 160,50 L 840,50 L 860,30 L 960,30 M 40,190 L 140,190 L 160,170 L 840,170 L 860,190 L 960,190" fill="none" stroke="#30363d" stroke-width="2"/>

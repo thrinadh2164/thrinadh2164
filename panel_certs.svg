@@ -24,9 +24,7 @@
     </style>
   </defs>
 
-  <rect width="496" height="646" x="2" y="2" rx="20" fill="url(#bg)" stroke="url(#coreGrad)" stroke-width="2" stroke-dasharray="15 15">
-    <animate attributeName="stroke-dashoffset" from="60" to="0" dur="4s" repeatCount="indefinite" />
-  </rect>
+  <rect width="500" height="650" rx="20" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
 
   <!-- Orbital Animation -->
   <g transform="translate(250,260)">
