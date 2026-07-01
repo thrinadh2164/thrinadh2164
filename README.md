@@ -115,11 +115,7 @@ const thrinadh = {
   <img src="./animated_divider.svg" width="100%">
 </div>
 
-<div align="center">
-  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fthrinadh2164&label=PROFILE+VIEWS&countColor=%2358a6ff&style=for-the-badge" />
-</div>
 
-<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" width="100%" />
