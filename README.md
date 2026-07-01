@@ -7,14 +7,13 @@
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NWZ5NnJmMjZzOGl6NGFudWR5YzM4eDdsN29oNjdtc3Jzcm8wY3k5ciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/wpIqberrjjSKDmaCgA/giphy.gif" width="180" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjQ4eDFiYzR6YTBvbHdhOXcwcnpjMjF6djFveDh1djk1NW03MmVnYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YpSKlrlvI79yU/giphy.gif" width="180" />
 </div>
 
-  
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-000?logo=linkedin&logoColor=0A66C2&style=for-the-badge" /></a>&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
   <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/-Email-000?logo=gmail&logoColor=EA4335&style=for-the-badge" /></a>&nbsp;
   <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/-Portfolio-000?logo=vercel&logoColor=fff&style=for-the-badge" /></a>&nbsp;
   <a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=fff&style=for-the-badge" /></a>

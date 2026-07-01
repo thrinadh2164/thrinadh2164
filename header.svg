@@ -1,77 +1,65 @@
 <svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#010409"/>
-    </radialGradient>
+    <!-- Synthwave / Vintage Console Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090514"/>
+      <stop offset="100%" stop-color="#1f0a33"/>
+    </linearGradient>
+    
+    <!-- Neon Text Gradient (Purple, Green, Blue) -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d2a8ff"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#56d364"/>
+    </linearGradient>
+    
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    
     <style>
-      .title { font: 900 65px 'Segoe UI', Arial, sans-serif; fill: #58a6ff; letter-spacing: 6px; }
-      .subtitle { font: 700 18px 'Fira Code', monospace; fill: #8b949e; letter-spacing: 3px; }
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+      .title { font: 34px 'Press Start 2P', monospace; fill: url(#textGrad); letter-spacing: 1px; }
+      .titleShadow { font: 34px 'Press Start 2P', monospace; fill: #d2a8ff; opacity: 0.5; }
+      .subtitle { font: 700 16px 'Fira Code', monospace; fill: #56d364; letter-spacing: 4px; }
       
-      @keyframes glitch1 {
-        0% { transform: translate(0) }
-        20% { transform: translate(-3px, 1px) }
-        40% { transform: translate(-1px, -1px) }
-        60% { transform: translate(3px, 1px) }
-        80% { transform: translate(1px, -1px) }
-        100% { transform: translate(0) }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
       }
-      @keyframes glitch2 {
-        0% { transform: translate(0) }
-        20% { transform: translate(3px, -1px) }
-        40% { transform: translate(1px, 1px) }
-        60% { transform: translate(-3px, -1px) }
-        80% { transform: translate(-1px, 1px) }
-        100% { transform: translate(0) }
+      .cursor { animation: blink 1s step-end infinite; }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
       }
-      .g1 { animation: glitch1 2s infinite; fill: #0ff; opacity: 0.7; }
-      .g2 { animation: glitch2 3s infinite; fill: #f0f; opacity: 0.7; }
+      .floating { animation: float 4s ease-in-out infinite; }
     </style>
   </defs>
 
   <!-- Background -->
   <rect width="1000" height="220" fill="url(#bg)"/>
   
-  <!-- Cyberpunk Frame -->
-  <path d="M 40,30 L 140,30 L 160,50 L 840,50 L 860,30 L 960,30 M 40,190 L 140,190 L 160,170 L 840,170 L 860,190 L 960,190" fill="none" stroke="#30363d" stroke-width="2"/>
-  
-  <!-- Animated Edge Pulses -->
-  <path d="M 160,50 L 840,50" stroke="#58a6ff" stroke-width="3" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite"/>
-  </path>
-  <path d="M 160,170 L 840,170" stroke="#58a6ff" stroke-width="3" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite" begin="1.5s"/>
-  </path>
-
-  <!-- Central Title with Glitch Effect -->
-  <g transform="translate(500, 115)">
-    <!-- Glitch Layers -->
-    <text x="0" y="0" text-anchor="middle" class="title g1">THRINADH CORE SYSTEM</text>
-    <text x="0" y="0" text-anchor="middle" class="title g2">THRINADH CORE SYSTEM</text>
-    <!-- Main Text -->
-    <text x="0" y="0" text-anchor="middle" class="title" filter="url(#glow)">THRINADH CORE SYSTEM</text>
+  <!-- Retro Grid Floor -->
+  <g stroke="#d2a8ff" stroke-width="1.5" opacity="0.3">
+    <path d="M 0,160 L 1000,160 M 0,180 L 1000,180 M 0,200 L 1000,200 M 0,220 L 1000,220"/>
+    <path d="M 500,150 L 500,220 M 450,150 L 200,220 M 550,150 L 800,220 M 400,150 L -100,220 M 600,150 L 1100,220"/>
   </g>
   
-  <text x="500" y="150" text-anchor="middle" class="subtitle">PRIMARY ACCESS PORTAL - AI &amp; ML - FULL-STACK</text>
+  <!-- Glowing Neon Borders -->
+  <rect x="20" y="20" width="960" height="180" rx="10" fill="none" stroke="#58a6ff" stroke-width="4" stroke-dasharray="15 15" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="2s" repeatCount="indefinite" />
+  </rect>
+  <rect x="30" y="30" width="940" height="160" rx="6" fill="none" stroke="#56d364" stroke-width="2" filter="url(#glow)"/>
 
-  <!-- Side Decorations -->
-  <g fill="#58a6ff" filter="url(#glow)">
-    <rect x="50" y="105" width="20" height="4">
-        <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="50" y="115" width="10" height="4">
-        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
-    </rect>
-    
-    <rect x="930" y="105" width="20" height="4">
-        <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="940" y="115" width="10" height="4">
-        <animate attributeName="opacity" values="0;1;0" dur="1.7s" repeatCount="indefinite"/>
-    </rect>
+  <!-- Vintage Arcade Title -->
+  <g class="floating">
+    <text x="503" y="103" text-anchor="middle" class="titleShadow" filter="url(#glow)">THRINADH CORE SYSTEM</text>
+    <text x="500" y="100" text-anchor="middle" class="title" filter="url(#glow)">THRINADH CORE SYSTEM</text>
   </g>
+  
+  <!-- Subtitle -->
+  <text x="500" y="150" text-anchor="middle" class="subtitle" filter="url(#glow)">> INIT_PORTAL<tspan class="cursor">_</tspan></text>
+
 </svg>
