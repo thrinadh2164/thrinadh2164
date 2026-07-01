@@ -18,10 +18,10 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" /></a>&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/-Email-000?logo=gmail&logoColor=EA4335&style=for-the-badge" /></a>&nbsp;
-  <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/-Portfolio-000?logo=vercel&logoColor=fff&style=for-the-badge" /></a>&nbsp;
-  <a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/-GitHub-000?logo=github&logoColor=fff&style=for-the-badge" /></a>
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg" height="42" /></a>&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg" height="42" /></a>&nbsp;
+  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg" height="42" /></a>&nbsp;
+  <a href="https://github.com/thrinadh2164"><img src="./btn_github.svg" height="42" /></a>
 </div>
 
 <br/>
@@ -122,9 +122,9 @@ const thrinadh = {
 <br/>
 
 <div align="center">
-  <a href="https://thrinadh.dev"><img src="https://img.shields.io/badge/PORTFOLIO-THRINADH.DEV-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>&nbsp;&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="https://img.shields.io/badge/EMAIL-THRINADH2164.WORK@GMAIL.COM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="https://img.shields.io/badge/LINKEDIN-THRINADH2164-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg" height="42" /></a>&nbsp;&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg" height="42" /></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg" height="42" /></a>
 </div>
 
 <div align="center">
