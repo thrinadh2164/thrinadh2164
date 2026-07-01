@@ -1,64 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#010409"/>
-    </radialGradient>
-    
-    <!-- Glowing Green/Cyan Node for Certs -->
     <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="30%" stop-color="#56d364"/>
-      <stop offset="70%" stop-color="#2ea043"/>
-      <stop offset="100%" stop-color="#010409"/>
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="25%"  stop-color="#FFD700"/>
+      <stop offset="60%"  stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FF2D2D" stop-opacity="0"/>
     </radialGradient>
-    
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="15"/>
     </filter>
-
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <style>
-      .title { font: 800 38px 'Segoe UI', Arial, sans-serif; fill: #f0f6fc; letter-spacing: 3px; }
-      .subtitle { font: 600 16px 'Fira Code', monospace; fill: #8b949e; letter-spacing: 1px; }
-      .cta { font: 700 15px 'Segoe UI', Arial; fill: #56d364; letter-spacing: 3px; }
+      .title { font: 800 32px 'Segoe UI', Arial, sans-serif; fill: #f0f6fc; letter-spacing: 3px; }
+      .subtitle { font: 600 16px 'Fira Code', monospace; fill: #FF9F45; letter-spacing: 1px; }
+      .cta { font: 700 15px 'Segoe UI', Arial; fill: #FFD700; letter-spacing: 3px; }
     </style>
   </defs>
 
-  <rect width="500" height="650" rx="20" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect width="496" height="646" x="2" y="2" rx="20" fill="transparent" stroke="#FFD700" stroke-width="2" stroke-dasharray="15 10">
+    <animate attributeName="stroke" values="#FFD700;#FF2D2D;#FF6B35;#FFD700" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="50" to="0" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Orbital Animation -->
-  <g transform="translate(250,260)">
-    <!-- Core Glow -->
+  <!-- Fire Shield for Certs -->
+  <g transform="translate(250,255)">
     <circle r="100" fill="url(#coreGrad)" filter="url(#glow)">
-      <animate attributeName="r" values="90;105;90" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="90;108;90" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    
-    <!-- Shield/Data Node -->
-    <path d="M -50,-50 L 50,-50 L 50,20 C 50,60 0,90 0,90 C 0,90 -50,60 -50,20 Z" fill="#ffffff" opacity="0.95">
-        <animate attributeName="opacity" values="0.8; 1; 0.8" dur="2s" repeatCount="indefinite"/>
-    </path>
 
-    <!-- Radar Sweep -->
-    <g stroke="#56d364" stroke-width="3" fill="none" stroke-linecap="round">
-        <path d="M 0,-130 A 130 130 0 0 1 130,0" stroke-dasharray="100 200">
-            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
-        </path>
-        <path d="M 0,-130 A 130 130 0 0 1 130,0" stroke-dasharray="100 200">
-            <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="3s" repeatCount="indefinite"/>
-        </path>
+    <!-- Fire shield shape -->
+    <path d="M -52,-55 L 52,-55 L 52,15 C 52,65 0,95 0,95 C 0,95 -52,65 -52,15 Z" fill="#FFD700" opacity="0.95">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#FFD700;#FF6B35;#FFD700" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -30,-35 L 30,-35 L 30,10 C 30,40 0,60 0,60 C 0,60 -30,40 -30,10 Z" fill="#FF2D2D" opacity="0.9">
+      <animate attributeName="fill" values="#FF2D2D;#FF6B35;#FF2D2D" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -10,-15 L 10,-15 L 10,5 C 10,20 0,28 0,28 C 0,28 -10,20 -10,5 Z" fill="#ffffff"/>
+
+    <!-- Radar sweep - fire -->
+    <g stroke="#FF6B35" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M 0,-130 A 130 130 0 0 1 130,0" stroke-dasharray="100 200">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+      </path>
     </g>
 
-    <!-- Pulsing Data Dots -->
-    <circle cx="100" cy="100" r="5" fill="#56d364" filter="url(#glow)">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    <!-- Orbiting fire dots -->
+    <circle cx="110" cy="90" r="6" fill="#FF6B35" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="-120" cy="30" r="4" fill="#2ea043" filter="url(#glow)">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/>
+    <circle cx="-120" cy="30" r="5" fill="#FFD700" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- Title Text -->
-  <text x="250" y="460" text-anchor="middle" class="title">CERTIFICATIONS</text>
+  <text x="250" y="460" text-anchor="middle" class="title" filter="url(#textglow)">CERTIFICATIONS</text>
   <text x="250" y="500" text-anchor="middle" class="subtitle">ml • engineering • cloud</text>
   <text x="250" y="560" text-anchor="middle" class="cta">VIEW CREDENTIALS →</text>
 </svg>
