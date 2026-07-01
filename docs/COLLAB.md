@@ -1,3 +1,12 @@
-Collaboration is most interesting to me when the work has a real system behind it: clear constraints, hard technical questions, and enough ambition to be worth engineering properly.
+# 🤝 Collaboration Protocol
 
-I am especially interested in Generative AI, RAG Pipelines, Multi-Agent Frameworks, Full-Stack Applications, AI infrastructure, and building scalable intelligent systems.
+**Collaboration is most interesting to me when the work has a real system behind it:** clear constraints, hard technical questions, and enough ambition to be worth engineering properly.
+
+### Areas of Interest:
+- 🧠 **Generative AI & LLMs**
+- 🔎 **Advanced RAG Pipelines**
+- 🤖 **Multi-Agent Frameworks**
+- 🌐 **Full-Stack Applications**
+- ⚙️ **AI Infrastructure & Scalability**
+
+*Let's build something scalable and intelligent together.*
