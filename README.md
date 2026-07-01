@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=180&text=THRINADH%20CORE%20SYSTEM&fontSize=50&fontColor=58a6ff&animation=twinkling&fontAlignY=35&desc=PRIMARY%20ACCESS%20PORTAL%20-%20AI%20AND%20ML%20-%20FULL-STACK&descSize=15&descColor=8b949e&descAlignY=55" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,161b22,0d1117&height=250&text=THRINADH%20CORE%20SYSTEM&fontSize=50&fontColor=58a6ff&animation=twinkling&fontAlignY=35&desc=PRIMARY%20ACCESS%20PORTAL%20-%20AI%20AND%20ML%20-%20FULL-STACK&descSize=15&descColor=8b949e&descAlignY=55" width="100%" />
 </div>
 
 <div align="center">
