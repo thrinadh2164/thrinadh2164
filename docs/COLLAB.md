@@ -24,6 +24,12 @@ When teaming up on open-source repositories or engineering ventures, I prioritiz
 * **Web & Mobile:** React, Node.js, Next.js, Android SDK, Vanilla CSS (Modern UI/UX)
 * **Infrastructure:** Docker, Firebase, Google Cloud Platform, Vercel
 
+### 📑 Deep-Dive Technical Documentation:
+For comprehensive breakdowns of my system design principles and tool chains, check out:
+* 📐 [System Architecture & Engineering Philosophy](./ARCHITECTURE.md) — Blackboard memory patterns, RAG pipelines, and auto-routing.
+* 🤖 [AI & Machine Learning Tech Stack](./AI_STACK.md) — Multi-provider LLMs, vector databases, and MLOps orchestration.
+* 📱 [Mobile & Android Engineering Architecture](./MOBILE_STACK.md) — Clean Kotlin MVVM, on-device ML Kit, and offline persistence.
+
 ---
 
 ## 💼 3. Freelance & Consulting Availability
