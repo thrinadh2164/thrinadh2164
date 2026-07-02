@@ -29,11 +29,11 @@
 ```javascript
 const thrinadh = {
     alias:    "thrinadh.dev",
-    role:     "Full-Stack & AI/ML Engineer",
+    role:     "Full-Stack & Generative AI Engineer",
     degree:   "BE CSE (AI & ML) Graduate",
     focus:    ["Generative AI", "RAG Pipelines", "Multi-Agent Systems"],
-    building: "AI-Powered Applications & Android Apps",
-    learning: ["LLMs", "Agentic AI", "MLOps"],
+    building: "Autonomous AI Workflows & Android Apps",
+    learning: ["LLMs", "Agentic Architectures", "MLOps"],
     funFact:  "I automate everything — even my GitHub profile 🔥"
 };
 ```
