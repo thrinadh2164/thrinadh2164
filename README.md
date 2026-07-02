@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="THRINADH.DEV — System Portal" />
+  <img src="./svg/header.svg" width="100%" alt="THRINADH.DEV — System Portal" />
 </div>
 
 <div align="center">
@@ -13,15 +13,15 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg?v=3" height="40" /></a>&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg?v=3" height="40" /></a>&nbsp;
-  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg?v=3" height="40" /></a>
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="./svg/btn_linkedin.svg?v=3" height="40" /></a>&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./svg/btn_email.svg?v=3" height="40" /></a>&nbsp;
+  <a href="https://thrinadh.dev"><img src="./svg/btn_portfolio.svg?v=3" height="40" /></a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="./divider_fire.svg" width="100%">
+  <img src="./svg/divider_fire.svg" width="100%">
 </div>
 
 ## 「 About Me 」
@@ -46,7 +46,7 @@ const thrinadh = {
 <br clear="both"/>
 
 <div align="center">
-  <img src="./divider_circuit.svg" width="100%">
+  <img src="./svg/divider_circuit.svg" width="100%">
 </div>
 
 ## 「 Technologies 」
@@ -102,21 +102,21 @@ const thrinadh = {
 </table>
 
 <div align="center">
-  <img src="./divider_fire.svg" width="100%">
+  <img src="./svg/divider_fire.svg" width="100%">
 </div>
 
 ## 「 Portfolio Showcase 」
 
 <table width="100%" border="0" cellspacing="12" cellpadding="0">
 <tr>
-  <td width="33.3%" valign="top" align="center"><a href="https://github.com/thrinadh2164?tab=repositories"><img src="./panel_projects.svg" width="100%" alt="Projects"/></a></td>
-  <td width="33.3%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Awards/"><img src="./panel_awards.svg" width="100%" alt="Awards"/></a></td>
-  <td width="33.3%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Certifications/"><img src="./panel_certs.svg" width="100%" alt="Certifications"/></a></td>
+  <td width="33.3%" valign="top" align="center"><a href="https://github.com/thrinadh2164?tab=repositories"><img src="./svg/panel_projects.svg" width="100%" alt="Projects"/></a></td>
+  <td width="33.3%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Awards/"><img src="./svg/panel_awards.svg" width="100%" alt="Awards"/></a></td>
+  <td width="33.3%" valign="top" align="center"><a href="https://thrinadh2164.github.io/My_Certifications/"><img src="./svg/panel_certs.svg" width="100%" alt="Certifications"/></a></td>
 </tr>
 </table>
 
 <div align="center">
-  <img src="./divider_circuit.svg" width="100%">
+  <img src="./svg/divider_circuit.svg" width="100%">
 </div>
 
 ## 「 GitHub Stats 」
@@ -132,21 +132,21 @@ const thrinadh = {
 </div>
 
 <div align="center">
-  <img src="./divider_fire.svg" width="100%">
+  <img src="./svg/divider_fire.svg" width="100%">
 </div>
 
 <div align="center">
-  <a href="./docs/COLLAB.md"><img src="./collab_terminal.svg" width="100%" alt="Collaboration Terminal"/></a>
+  <a href="./docs/COLLAB.md"><img src="./svg/collab_terminal.svg" width="100%" alt="Collaboration Terminal"/></a>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://thrinadh.dev"><img src="./btn_portfolio.svg?v=3" height="40" /></a>&nbsp;&nbsp;
-  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./btn_email.svg?v=3" height="40" /></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/thrinadh2164"><img src="./btn_linkedin.svg?v=3" height="40" /></a>
+  <a href="https://thrinadh.dev"><img src="./svg/btn_portfolio.svg?v=3" height="40" /></a>&nbsp;&nbsp;
+  <a href="mailto:thrinadh2164.work@gmail.com"><img src="./svg/btn_email.svg?v=3" height="40" /></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/thrinadh2164"><img src="./svg/btn_linkedin.svg?v=3" height="40" /></a>
 </div>
 
 <div align="center">
-  <img src="./footer.svg" width="100%" />
+  <img src="./svg/footer.svg" width="100%" />
 </div>
