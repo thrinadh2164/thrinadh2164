@@ -29,6 +29,8 @@ For comprehensive breakdowns of my system design principles and tool chains, che
 * 📐 [System Architecture & Engineering Philosophy](./ARCHITECTURE.md) — Blackboard memory patterns, RAG pipelines, and auto-routing.
 * 🤖 [AI & Machine Learning Tech Stack](./AI_STACK.md) — Multi-provider LLMs, vector databases, and MLOps orchestration.
 * 📱 [Mobile & Android Engineering Architecture](./MOBILE_STACK.md) — Clean Kotlin MVVM, on-device ML Kit, and offline persistence.
+* ☁️ [Cloud Infrastructure & DevOps Architecture](./CLOUD_DEVOPS.md) — GCP Serverless, Vercel Edge, Docker microservices, and CI/CD.
+* 🌐 [Open Source & Community Contribution Guide](./OPEN_SOURCE.md) — MIT licensing philosophy, PR standards, and feature proposals.
 
 ---
 
